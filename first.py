@@ -15,6 +15,12 @@ firstname.place(x=10, y=120)
 field1=Entry()
 field1.place(x=120, y=123)
 
+#ENTRYFIELD FOR MIDDLE NAME
+firstname=Label(window, text="Middle Name : ", font=("Arial",13))
+firstname.place(x=400, y=120)
+field1=Entry()
+field1.place(x=520, y=123)
+
 #ENTRYFIELD FOR LAST NAME
 lastname=Label(window, text="Last Name : ", font=("Arial",13))
 lastname.place(x=10, y=160)
